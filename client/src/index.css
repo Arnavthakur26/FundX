@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  /* background: #0f2027; 
+  background: -webkit-linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); 
+  background: linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); */
+  background: #191a1a; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #191a1a,
+    #252729
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #191a1a,
+    #252729
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  background: transparent;
+  scrollbar-gutter: stable both-edges;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  padding: 2px;
+  background-color: #252729;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  margin: 2px;
+  background-color: rgba(157, 157, 157, 0.374);
+}
